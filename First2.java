@@ -304,8 +304,9 @@ public void actionPerformed(ActionEvent e1)
 public void actionPerformed(ActionEvent e1)
 {
 		out.add("sin");
-		check=0;
+		
 	x.setText(x.getText()+"sin");
+	check=0;
 }
   });
 	tani.addActionListener(new ActionListener(){
